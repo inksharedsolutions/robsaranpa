@@ -12,11 +12,11 @@ const Banner = (props) =>{
             { (props.isFront) ? 
                 <>
                     <section className="banner-section">
-                        <Parallax 
+                        {/* <Parallax 
                             bgImageAlt="the cat"
                             strength={300}
                             bgImage={require('../../static/banner/banner.png')}
-                            >
+                            > */}
                                 <div className="container-gt">
                                     <div className="grid-two-columns" id="banner-layout-responsive">
                                         
@@ -37,7 +37,7 @@ const Banner = (props) =>{
                                         </div>
                                     </div>
                                 </div>
-                        </Parallax>
+                        {/* </Parallax> */}
                     </section>
                 </>
              :

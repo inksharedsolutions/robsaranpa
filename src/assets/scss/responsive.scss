@@ -8,7 +8,25 @@
             margin: 24% 0;
         }
     }
-
+    .text-content-wrapper{
+        background-image: url('../../../static/img/santa.png');
+        background-repeat:no-repeat;
+        background-position:0px 500px;
+        background-size: 30%;
+    }
+    .two-grid-elements{
+        background-image: url('../../../static/img/bible.png');
+        background-repeat:no-repeat;
+        background-position: 50rem 450px;
+        background-size: 50%;
+    }
+    .footer-section{
+        background-color: #191818;
+        background-image: url('../../../static/img/christmass tree.png');
+        background-repeat: no-repeat;
+        background-position: 63rem 90px;
+        background-size: 30%;
+    }
 }
 @media only screen and (max-width: 1350px) {
     .text-content-wrapper{
