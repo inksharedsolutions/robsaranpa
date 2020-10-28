@@ -2,6 +2,7 @@ import React from 'react'
 import Layout from '../components/layout'
 import Inputs from "../components/Inputs/input"
 import Banner from '../components/banner'
+import Snowfall from 'react-snowfall'
 
 const Contact = (props)=>{
 
@@ -30,6 +31,13 @@ const Contact = (props)=>{
 
     return(
 		<Layout extPath={false}>
+			<Snowfall
+                // Changes the snowflake color
+                color="#dfdfde"
+                // Applied to the canvas element
+                // Controls the number of snowflakes that are created (default 150)
+                snowflakeCount={1000}
+            />
             <Banner 
                     spanFirst={`Get in`}
                     contextHeading={`Touch`} 

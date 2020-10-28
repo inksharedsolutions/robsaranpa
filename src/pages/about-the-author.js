@@ -3,11 +3,19 @@ import Banner from '../components/banner'
 import '../assets/scss/pages.scss'
 import Layout from '../components/layout'
 import AuthorImg from '../../static/author/author_model.jpg'
+import Snowfall from 'react-snowfall'
 
  const AboutTheAuthor = (props)=>{
 
      return(
         <> 
+            <Snowfall
+                // Changes the snowflake color
+                color="#dfdfde"
+                // Applied to the canvas element
+                // Controls the number of snowflakes that are created (default 150)
+                snowflakeCount={1000}
+            />
             <Layout extPath={false}>
 
                 <Banner 

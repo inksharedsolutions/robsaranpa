@@ -27,8 +27,14 @@
 }
 
 .banner-section{
+    background-color: rgb(37, 37, 37);
+    background-image: url(https://ld-wp73.template-help.com/wordpress/prod_21235/v1/wp-content/uploads/2018/11/home-bg-2.png);
     overflow: hidden;
     height: 60vh;
+    background-position: bottom center;
+    background-size: cover;
+    opacity: 1;
+    transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
 }
 
 .banner-text{
@@ -66,7 +72,7 @@
 
 
 .meta-spanline{
-    color: #fff !important;
+    color: #f6cf83 !important;
     font-family: 'Scheherazade', serif;
     letter-spacing: 0px;
     font-weight: 100;
