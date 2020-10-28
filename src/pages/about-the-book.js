@@ -5,9 +5,9 @@ import Book1 from '../../static/book/book_cover.png'
 import { DiscussionEmbed } from "disqus-react"
 import Layout from '../components/layout'
 import Banner from '../components/banner'
-import BookInfo  from '../components/book-info/book-info'
-import Snowfall from 'react-snowfall'
+import BookInfo  from '../components/book-info/book-info';
 import ABA from './about-the-author'
+import Snow from '../components/snow'
 
 const AboutTheBook= (props) =>{
 
@@ -29,13 +29,7 @@ const AboutTheBook= (props) =>{
 
 	return(
 		<Layout extPath={false}>
-			<Snowfall
-				// Changes the snowflake color
-				color="#dfdfde"
-				// Applied to the canvas element
-				// Controls the number of snowflakes that are created (default 150)
-				snowflakeCount={1000}
-			/>
+      <Snow></Snow>
             <Banner 
 				spanFirst={`About the`}
 				contextHeading={`Book`}
