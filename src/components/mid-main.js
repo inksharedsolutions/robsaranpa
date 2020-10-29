@@ -23,7 +23,7 @@ const MidMain = ()=>{
 
                             <p className="span-letter-ft fontHeading">
                                 <span>The nigh Jesus met</span> 
-                                <span>Santa Clause</span>
+                                <span>Santa Claus</span>
                             </p>
 
                             <h1 className="fontHeading heading-ft">About the Book</h1>
