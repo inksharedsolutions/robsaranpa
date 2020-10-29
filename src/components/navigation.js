@@ -116,7 +116,40 @@ const Nav = (props) =>{
 					<p>
 						Navigation
 					</p>
-					{Listed}
+					<li>
+						<AniLink 
+							cover to="/" 
+							duration={2} 
+							bg="#f1e8e2">
+							Home
+						</AniLink>
+					</li>
+					<li>
+						<AniLink cover 
+							to="/about-the-author" 
+							duration={2} 
+							bg="#f1e8e2">
+							About the Author
+						</AniLink>
+					</li>
+					<li>
+						<AniLink 
+							cover 
+							to="/about-the-book" 
+							duration={2}
+							bg="#f1e8e2">
+							About the Book
+						</AniLink>
+					</li>
+					<li>
+						<AniLink 
+							cover 
+							to="/contact" 
+							duration={2} 
+							bg="#f1e8e2">
+							Contact
+						</AniLink>
+					</li>
 				</nav>
 			)}
 

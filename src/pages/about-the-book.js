@@ -7,7 +7,8 @@ import Layout from '../components/layout'
 import Banner from '../components/banner'
 import BookInfo  from '../components/book-info/book-info';
 import ABA from './about-the-author'
-import Snow from '../components/snow'
+var Snow = require('react-snow-effect');
+
 
 const AboutTheBook= (props) =>{
 
@@ -29,7 +30,7 @@ const AboutTheBook= (props) =>{
 
 	return(
 		<Layout extPath={false}>
-      <Snow></Snow>
+      <Snow/>
             <Banner 
 				spanFirst={`About the`}
 				contextHeading={`Book`}
@@ -42,7 +43,7 @@ const AboutTheBook= (props) =>{
 
 						<BookInfo
 							data={{
-								title:`The night Jesus met Santa Clause`,
+								title:`The night Jesus met Santa Claus`,
 								spanTitle: '',
 								imgSrc: Book1,
 								id:'dreamwatcher',

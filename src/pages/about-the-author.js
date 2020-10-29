@@ -3,14 +3,15 @@ import Banner from '../components/banner'
 import '../assets/scss/pages.scss'
 import Layout from '../components/layout'
 import AuthorImg from '../../static/author/author_model.jpg'
-import Snow from '../components/snow'
+// import Snow from '../components/snow'
+var Snow = require('react-snow-effect');
 
  const AboutTheAuthor = (props)=>{
 
      return(
         <> 
             <Layout extPath={false}>
-            <Snow></Snow>
+            <Snow/>
 
                 <Banner 
                     spanFirst={`About the`}
