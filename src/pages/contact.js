@@ -3,7 +3,7 @@ import Layout from '../components/layout'
 import Inputs from "../components/Inputs/input"
 import Banner from '../components/banner'
 // import Snow from '../components/snow'
-var Snow = require('react-snow-effect');
+// var Snow = require('react-snow-effect');
 
 
 const Contact = (props)=>{
@@ -33,7 +33,7 @@ const Contact = (props)=>{
 
     return(
 		<Layout extPath={false}>
-      <Snow/>
+      {/* <Snow/> */}
             <Banner 
                     spanFirst={`Get in`}
                     contextHeading={`Touch`} 

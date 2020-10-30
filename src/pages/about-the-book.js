@@ -7,7 +7,7 @@ import Layout from '../components/layout'
 import Banner from '../components/banner'
 import BookInfo  from '../components/book-info/book-info';
 import ABA from './about-the-author'
-var Snow = require('react-snow-effect');
+// var Snow = require('react-snow-effect');
 
 
 const AboutTheBook= (props) =>{
@@ -30,7 +30,7 @@ const AboutTheBook= (props) =>{
 
 	return(
 		<Layout extPath={false}>
-      <Snow/>
+      {/* <Snow/> */}
             <Banner 
 				spanFirst={`About the`}
 				contextHeading={`Book`}
