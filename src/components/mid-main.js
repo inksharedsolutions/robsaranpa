@@ -22,7 +22,7 @@ const MidMain = ()=>{
                         <div className="box-element-right">
 
                             <p className="span-letter-ft fontHeading">
-                                <span>The Nighy Jesus Met</span> 
+                                <span>The Night Jesus Met</span> 
                                 <span>Santa Claus</span>
                             </p>
 
