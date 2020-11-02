@@ -43,7 +43,7 @@ const AboutTheBook= (props) =>{
 
 						<BookInfo
 							data={{
-								title:`The night Jesus met Santa Claus`,
+								title:`The Night Jesus Met Santa Claus`,
 								spanTitle: '',
 								imgSrc: Book1,
 								id:'dreamwatcher',
