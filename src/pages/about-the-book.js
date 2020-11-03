@@ -53,12 +53,17 @@ const AboutTheBook= (props) =>{
 								ebooks:{
 									stratton : 'https://www.stratton-press.com/books/the-night-jesus-met-santa-claus/',
 									barnes: 'https://www.barnesandnoble.com/w/the-night-jesus-met-santa-claus-rob-saranpa/1013046604?ean=9781648951176',
-									amazon :'https://www.amazon.com/Night-Jesus-Met-Santa-Claus/dp/1648951171/ref=tmm_hrd_swatch_0?_encoding=UTF8&qid=1597083602&sr=8-1', 
+									amazon :'https://www.amazon.com/Night-Jesus-Met-Santa-Claus/dp/1648951171/ref=sr_1_1?dchild=1&keywords=9781648951022&qid=1604392657&sr=8-1', 
 								},
 								paperback:{
-									amazon:'https://www.amazon.com/Night-Jesus-Met-Santa-Claus/dp/1648951015/ref=sr_1_1?dchild=1&keywords=9781648951015&qid=1597083627&sr=8-1',
+									amazon:'https://www.amazon.com/Night-Jesus-Met-Santa-Claus/dp/1648951015/ref=sr_1_1?dchild=1&keywords=9781648951015&qid=1604392678&sr=8-1',
 									barnes:'https://www.barnesandnoble.com/w/the-night-jesus-met-santa-claus-rob-saranpa/1013046604?ean=9781648951015',
 									booksamillion:'https://www.booksamillion.com/p/Night-Jesus-Met-Santa-Claus/Rob-Saranpa/9781648951015?id=8009965417365&_ga=2.201386834.2145208486.1603698726-1770015116.1600996550',
+								},
+								hardcover:{
+									amazon:'https://www.amazon.com/Night-Jesus-Met-Santa-Claus/dp/1648951171/ref=sr_1_1?dchild=1&keywords=9781648951176&qid=1597083645&sr=8-1',
+									barnes:'https://www.barnesandnoble.com/w/the-night-jesus-met-santa-claus-rob-saranpa/1013046604?ean=9781648951176',
+									booksamillino:'https://www.booksamillion.com/p/Night-Jesus-Met-Santa-Claus/Rob-Saranpa/9781648951176?id=8043859463603&_ga=2.14589175.1190744042.1604385963-131468970.1604385963'
 								}
 							}}
 						/>
