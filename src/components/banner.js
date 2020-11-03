@@ -28,7 +28,7 @@ const Banner = (props) =>{
                                             <h1 className="heading-banner-fs">
                                                 <span>The </span>
                                                 <span>Night Jesus met</span>
-                                                <span>Santa Clause</span>
+                                                <span>Santa Claus</span>
                                             </h1>
 
                                             <span className="meta-spanline">
