@@ -27,7 +27,7 @@ const Banner = (props) =>{
                                         <div className="right-col banner-text">
                                             <h1 className="heading-banner-fs">
                                                 <span>The </span>
-                                                <span>Night Jesus met</span>
+                                                <span>Night Jesus Met</span>
                                                 <span>Santa Claus</span>
                                             </h1>
 

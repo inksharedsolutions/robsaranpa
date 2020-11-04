@@ -2,7 +2,7 @@ import React from 'react'
 import Banner from '../components/banner'
 import '../assets/scss/pages.scss'
 import Layout from '../components/layout'
-import AuthorImg from '../../static/author/author_model.jpg'
+import AuthorImg from '../../static/author/author_guitar.jpg'
 // import Snow from '../components/snow'
 // var Snow = require('react-snow-effect');
 
