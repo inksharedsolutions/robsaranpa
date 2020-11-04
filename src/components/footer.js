@@ -90,7 +90,7 @@ const Footer = ()=>{
                         <h5>Newsletter</h5>
                         <p>Stay up to date with the latest from me</p>
                         <Newsletter/>
-                        <p className="guide-cont"><a href="https://www.christianitytoday.com/partners/gift-guides/2020-holiday-gift-guide-for-book-lovers.html" target="_blank" className="gift-guide">Christianity Today 2020 Gift Guide. </a></p>
+                        <p className="guide-cont"><a href="https://www.christianitytoday.com/partners/gift-guides/2020-holiday-gift-guide-for-book-lovers.html" target="_blank" className="gift-guide">Christianity Today 2020 Gift Guide</a></p>
                     </div>
                 </div>
 
