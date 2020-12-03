@@ -1,6 +1,6 @@
 import React from 'react'
 import {Link} from 'gatsby'
-import {faTwitter, faInstagram, faFacebook, faGoodreads, faPinterest, faLinkedin } from '@fortawesome/fontawesome-free-brands'
+import {faTwitter, faInstagram, faFacebook, faGoodreads} from '@fortawesome/fontawesome-free-brands'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import LogoFooter from '../../static/logo/stratton-footer-logo.png'
 import Logo from '../../static/logo/main_logo_white.png'
@@ -25,8 +25,10 @@ const Footer = ()=>{
                     <nav className="social-media-nav">
                         <ul>
                             <li>
-                                <a href="https://www.facebook.com/Rob-Saranpa-103084788180305"
-                                target="_blank">
+                                <a 
+                                    rel="noopener noreferrer"
+                                    href="https://www.facebook.com/Rob-Saranpa-103084788180305"
+                                    target="_blank">
                                     <FontAwesomeIcon
                                         className='font-awesome'
                                         icon={faFacebook} />
@@ -35,6 +37,7 @@ const Footer = ()=>{
 
                             <li>
                                 <a 
+                                    rel="noopener noreferrer"
                                     target="_blank"
                                     href="https://twitter.com/strattonpress/">
                                     <FontAwesomeIcon
@@ -45,6 +48,7 @@ const Footer = ()=>{
 
                             <li>
                                 <a  
+                                    rel="noopener noreferrer"
                                     target="_blank"
                                     href="https://www.instagram.com/strattonpress/">
                                     <FontAwesomeIcon
@@ -55,6 +59,7 @@ const Footer = ()=>{
                             
                             <li>
                                 <a 
+                                    rel="noopener noreferrer"
                                     target="_blank"
                                     href="https://www.goodreads.com/book/show/54901493-the-night-jesus-met-santa-claus">
                                     <FontAwesomeIcon 
@@ -90,7 +95,7 @@ const Footer = ()=>{
                         <h5>Newsletter</h5>
                         <p>Stay up to date with the latest from me</p>
                         <Newsletter/>
-                        <p className="guide-cont"><a href="https://www.christianitytoday.com/partners/gift-guides/2020-holiday-gift-guide-for-book-lovers.html" target="_blank" className="gift-guide">Christianity Today 2020 Gift Guide</a></p>
+                        <p className="guide-cont"><a href="https://www.christianitytoday.com/partners/gift-guides/2020-holiday-gift-guide-for-book-lovers.html" rel="noopener noreferrer" target="_blank" className="gift-guide">Christianity Today 2020 Gift Guide</a></p>
                     </div>
                 </div>
 

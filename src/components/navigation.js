@@ -1,46 +1,11 @@
-import React, {useRef, useState} from 'react'
-import {Link} from 'gatsby'
+import React, {useState} from 'react'
 import	Logo from '../../static/logo/main_logo.png'
 import AniLink from "gatsby-plugin-transition-link/AniLink";
 
 
 const Nav = (props) =>{
 
-	const refSpan  = useRef();
 	const [toggled, setToggled] = useState(false);
-
-	const pages = [
-		 'Home',
-		 'About-the-Author', 
-		 'About-the-Book', 
-		 'Contact'
-	]
-
-	function capitalize(string) {
-		return string.charAt(0).toUpperCase() + string.slice(1).toLowerCase();
-	}
-	
-
-	let Listed = pages.map((e) =>{
- 		
-		var newUrl = ((e).replace(/[ /]/g,"-").trim().toLowerCase());
-		let filterUrl = (newUrl === 'home') ? '/' : newUrl;
-
-		const res = e.replace(/[-/]/g," ").trim();
-	
-		return (
-			<li>
-				<AniLink
-					to={filterUrl}>
-					{res}
-				</AniLink>
-			</li>
-		)
-	})
-
-	const clickEvent = (e)=> {
-		setToggled(!toggled);
-	}
 			
     return(		
         <> 

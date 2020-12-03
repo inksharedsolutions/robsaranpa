@@ -11,7 +11,7 @@ const MidMain = ()=>{
                     <div className="grid-two-columns" id="book-columns"> 
 
                         <div className="box-element-left">
-                            <img src={BookImg}/>
+                            <img alt="book cover" src={BookImg}/>
                             <button>
                                 <Link to="/about-the-book">
                                     Read More

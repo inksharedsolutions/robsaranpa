@@ -23,7 +23,7 @@ import AuthorImg from '../../static/author/author_guitar.jpg'
 
                         <div className="heading-quote">
                             <div className="author-image-container">
-                                <img src={AuthorImg} />
+                                <img alt="Rob Saranpa" src={AuthorImg} />
                             </div>
                         </div>
 

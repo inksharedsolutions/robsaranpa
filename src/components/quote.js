@@ -1,5 +1,4 @@
 import React from 'react'
-import Road from '../../static/img/road.png'
 
 const Quote = () =>{
     return(

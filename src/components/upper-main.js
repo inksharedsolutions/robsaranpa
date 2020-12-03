@@ -1,4 +1,4 @@
-import React, {useState, useEffect } from 'react'
+import React from 'react'
 import {Link} from 'gatsby'
 import AuthorImg from '../../static/author/author_model.jpg'
 
@@ -12,7 +12,7 @@ const UpperMain =()=>{
                 <div className="container-gt">
                     <div className="grid-two-columns" id="column-upper"> 
                         <div className="col-left author-image">
-                            <img src={AuthorImg}/>
+                            <img alt="Rob Saranpa" src={AuthorImg}/>
                             <button>
                                 <Link to="/about-the-author">
                                     Read More

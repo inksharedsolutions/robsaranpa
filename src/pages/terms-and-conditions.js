@@ -7,17 +7,6 @@ import Parser from 'html-react-parser';
 
 const TaC = (props) =>{
 
-
-	const bannerText = (
-		<>
-			<span className="banr-tagline-fx">Valentine Cardinale</span>
-			<h1 className="banr-header-fx"> 
-				Terms And
-				<span className="banr-spn-highlight">Conditions</span>
-			</h1>
-		</>
-	)
-
 	const FetchMarkDown = useStaticQuery(graphql`
 		 query TermsAndConditionsPageQuery  {
 			  markdownRemark(fileAbsolutePath: {regex: "/terms-and-conditions.md/" }) {

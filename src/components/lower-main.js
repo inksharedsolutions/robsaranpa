@@ -25,19 +25,19 @@ const LowerMain = ()=>{
 
                     <div className="grid-child grid-template-four-col" id="logos-col">
                         <li>
-                            <img src={Logo1}/>
+                            <img alt="Amazon logo" src={Logo1}/>
                         </li>
 
                         <li>
-                            <img src={Logo2}/>  
+                            <img alt="Books A Million logo" src={Logo2}/>  
                         </li>
 
                         <li>
-                            <img src={Logo3}/>
+                            <img alt="Barnes &amp; Noble logo" src={Logo3}/>
                         </li>
 
                         <li>
-                            <img src={Logo4}/>
+                            <img alt="Stratton Press logo" src={Logo4}/>
                         </li>
 
                     </div>

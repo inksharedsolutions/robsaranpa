@@ -1,11 +1,8 @@
 import React from 'react'
-import {Link} from 'gatsby'
 import '../assets/scss/pages.scss'
-import { Parallax, Background } from 'react-parallax';
 
 const Banner = (props) =>{
 
-    const isFront =props.isFront;
     return(
         <>
 
